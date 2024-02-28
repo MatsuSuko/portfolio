@@ -322,20 +322,6 @@ export default function Projets() {
                                     <div className="flex flex-col pb-4">
                                         <h1 className="font-bold text-lg">Description</h1>
                                         <p>
-                                            {/*Pour ce projet, j'ai voulu me mettre au défi en voulant faire un projet seul
-                                        chez moi. Etant plus jeune, j'avais beaucoup d'admiration pour mon héro préféré
-                                        "Iron Man" qui m'inspire encore et toujours actuellement. Ses technologies et
-                                        armures qu'avait tony stark m'a donnée pas mal d'inspiration, c'est donc pour ça
-                                        que j'ai voulu faire du développement. Ce projet que j'ai réalisé était un bon
-                                        moyen pour moi d'apprendre la programmation, comprendre son
-                                        fonctionnement mais aussi pouvoir faire du système embarqué en bricolant un
-                                        miroir connecté. Bien sûr, je n'ai pas tout fait de A à Z, un projet existait
-                                        déjà qui se nomme "Magic Mirror" que j'ai repris et modifier selon mes envies et
-                                        goût. Malgré que le projet était déjà fait, ça m'a permis d'en apprendre
-                                        beaucoup de chose ainsi que sur moi, sur mes envies, sur ma motivation car ça
-                                        reste quand
-                                        même du travail et ça prend du temps, entre la création du miroir et de la
-                                        programmation.*/}
                                             J&apos;ai décidé de réaliser un projet seul chez moi afin de développer
                                             mes compétences en matière de programmation et de systèmes embarqués. Mon
                                             admiration pour Iron Man étant restée intacte depuis mon enfance, ses
