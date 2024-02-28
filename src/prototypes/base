@@ -1,0 +1,66 @@
+<div className="font-sans text-white bg-gray-900 min-h-screen">
+                {/* Header */}
+                <header className="text-center py-8">
+                    <h1 className="text-4xl font-bold">Votre Nom</h1>
+                    <p>Titre Professionnel</p>
+                    <button className="bg-primary text-white px-4 py-2 rounded mt-4">Télécharger CV</button>
+                </header>
+
+                {/* Section Présentation */}
+                <section className="flex items-center justify-between p-8">
+                    <div className="flex-shrink-0 w-1/2">
+                        <img src="/fond-futuriste.jpg" alt="Fond Futuriste" className="w-full h-auto rounded"/>
+                    </div>
+                    <div className="flex-shrink-0 w-1/2 ml-8">
+                        <h2 className="text-3xl font-bold mb-4">À Propos de Moi</h2>
+                        <p className="text-gray-300">Courte biographie...</p>
+                        <button className="bg-primary text-white px-4 py-2 rounded mt-4">En savoir plus</button>
+                    </div>
+                </section>
+
+                {/* Portfolio */}
+                <section className="p-8">
+                    <h2 className="text-3xl font-bold mb-4">Portfolio</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        {/* Ajoutez des miniatures ou des maquettes de projets */}
+                        <div className="bg-white p-4 rounded shadow">
+                            Projet 1
+                        </div>
+                        <div className="bg-white p-4 rounded shadow">
+                            Projet 2
+                        </div>
+                        <div className="bg-white p-4 rounded shadow">
+                            Projet 3
+                        </div>
+                    </div>
+                </section>
+
+                {/* Compétences et Technologies */}
+                <section className="p-8">
+                    <h2 className="text-3xl font-bold mb-4">Compétences et Technologies</h2>
+                    {/* Utilisez des icônes et des descriptions pour représenter vos compétences */}
+                    <div>HTML, CSS, JavaScript</div>
+                    <div>React, TypeScript</div>
+                    {/* ... Ajoutez d'autres compétences */}
+                </section>
+
+                {/* Contact */}
+                <section className="p-8">
+                    <h2 className="text-3xl font-bold mb-4">Contact</h2>
+                    {/* Ajoutez un formulaire de contact */}
+                    <form className="mb-4">
+                        {/* ... Ajoutez les champs du formulaire */}
+                        <button type="submit" className="bg-primary text-white px-4 py-2 rounded">Envoyer</button>
+                    </form>
+                    {/* Ajoutez des icônes de médias sociaux avec des liens */}
+                    <div>Réseaux sociaux</div>
+                </section>
+
+                {/* Pied de Page */}
+                <footer className="p-8 text-center">
+                    {/* Ajoutez des liens vers des projets open source ou des contributions */}
+                    <div>Projets Open Source</div>
+                    {/* Ajoutez une phrase ou une citation inspirante */}
+                    <div>Citation inspirante</div>
+                </footer>
+            </div>
