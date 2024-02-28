@@ -1,4 +1,3 @@
-import Hero from "@/components/hero";
 import { SparklesCore } from "../components/ui/sparkles";
 
 export default function Home() {
