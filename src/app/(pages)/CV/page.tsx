@@ -43,7 +43,7 @@ export default function CV() {
                     <div className="flex justify-end">
                         <div className="w-3/5 bg-slate-50">
                             <div className="flex flex-col p-4 border rounded-lg shadow-xl">
-                                <h1 className="font-bold text-xl">6 semaines</h1>
+                                <h1 className="font-bold text-xl">Avril 2022 - Mai 2022</h1>
                                 <h2 className="text-lg ml-2">K-Technologies (informatique) - La Meilleraie-Tillay,
                                     Pouzauges</h2>
                                 <h1 className="text-lg">Stage en tant que développeur web (fullstack)</h1>
@@ -79,11 +79,7 @@ export default function CV() {
                                     août 2023</h1>
                                 <h2 className="text-lg ml-2">SARL PARAMY (restaurant) - Pouzauges</h2>
                                 <h1 className="text-lg">Serveur</h1>
-                                <p className="mt-2">
-                                    Création d’une application web permettant la gestion des stocks
-                                    de l’entreprise ainsi qu’une application de shopping list :
-                                </p>
-                                <ul className="pl-4 list-disc list-inside">
+                                <ul className="mt-2 pl-4 list-disc list-inside">
                                     <li>
                                         Service des boissons à table
                                     </li>
