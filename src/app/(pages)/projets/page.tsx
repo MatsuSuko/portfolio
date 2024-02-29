@@ -48,7 +48,7 @@ export default function Projets() {
                                 </CardFooter>
                             </Card>
                         </SheetTrigger>
-                        <SheetContent side={"right"} className="w-1/2">
+                        <SheetContent side={"right"} className="w-1/2 overflow-y-auto max-h-screen">
                             <SheetHeader>
                                 <SheetTitle className="font-bold text-2xl">Projet Sirio</SheetTitle>
                                 <SheetDescription>
@@ -164,31 +164,27 @@ export default function Projets() {
                                     <CardDescription>Développement web</CardDescription>
                                 </CardHeader>
                                 <CardContent className="justify-center">
-                                    <Image src={ImgProjetMakAir} alt="imgProjetMakAir"
-                                           className="w-10/12 rounded-lg border shadow-lg"/>
+                                    <Image src={ImgProjetMakAir} alt="imgProjetMakAir" className="w-10/12 rounded-lg border shadow-lg"/>
                                 </CardContent>
                                 <CardFooter className="flex justify-center">
                                     2022 - 2023
                                 </CardFooter>
                             </Card>
                         </SheetTrigger>
-                        <SheetContent side={"right"} className="w-1/2">
+                        <SheetContent side={"right"} className="w-1/2 overflow-y-auto max-h-screen">
                             <SheetHeader>
                                 <SheetTitle className="font-bold text-2xl">Projet MakAir</SheetTitle>
                                 <SheetDescription>
                                     <div className="flex justify-center p-7">
-                                        <Image src={ImgProjetMakAir} alt="imgProjetMakAir"
-                                               className="w-7/12 rounded-lg border shadow-2xl"/>
+                                        <Image src={ImgProjetMakAir} alt="imgProjetMakAir" className="w-7/12 rounded-lg border shadow-2xl"/>
                                     </div>
                                     <div className="flex flex-col pb-4">
                                         <h1 className="font-bold text-lg">Description</h1>
                                         <p>
                                             Pour l&apos;obtention de mon diplôme BTS en Systèmes
                                             Numériques, option Informatique et Réseaux (BTS SN IR), j&apos;ai pris part à
-                                            un projet nommée « projet MakAir ».
-                                            <span
-                                                className="font-bold inline-block">C&apos;est quoi le projet MakAir ?
-                                        </span>
+                                            un projet nommé « projet MakAir ».
+                                            <span className="font-bold inline-block">C&apos;est quoi le projet MakAir ?</span>
                                             Ce projet est un effort collectif open source
                                             ayant pour objectif la conception et la fabrication de respirateurs
                                             artificiels
@@ -209,7 +205,6 @@ export default function Projets() {
                                             patient,
                                             contenant des éléments tels que son identité, ses coordonnées, son poids, sa
                                             fréquence respiratoire, et bien d&apos;autres paramètres pertinents.
-
                                         </p>
                                     </div>
                                     <Separator orientation="horizontal" className="mb-4"/>
@@ -295,6 +290,7 @@ export default function Projets() {
                         </SheetContent>
                     </Sheet>
 
+
                     <Sheet>
                         <SheetTrigger>
                             <Card className="border shadow-xl hover:scale-105 transition duration-150 ease-in bg-slate-50">
@@ -311,7 +307,7 @@ export default function Projets() {
                                 </CardFooter>
                             </Card>
                         </SheetTrigger>
-                        <SheetContent side={"right"} className="w-1/2">
+                        <SheetContent side={"right"} className="w-1/2 overflow-y-auto max-h-screen">
                             <SheetHeader>
                                 <SheetTitle className="font-bold text-2xl">Miroir connecté</SheetTitle>
                                 <SheetDescription>

@@ -111,9 +111,11 @@ export default function CV() {
             <div className="container mx-auto p-14">
                 <div className="grid grid-cols-3 gap-7">
                     <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
-                        <h1 className="font-bold text-xl mb-2">2023 - 2024</h1>
-                        <h2 className="text-lg ml-4">Bachelor spécialisation en développement (en cours)</h2>
-                        <h3 className="ml-4">Sup de Vinci - Nantes</h3>
+                        <h1 className="font-bold text-xl mb-2">2018 - 2021</h1>
+                        <h2 className="text-lg ml-4">Bac STI2D (Siences et Technologies de l&apos;Industrie et du
+                            Développement
+                            Durable) (diplômé)</h2>
+                        <h3 className="ml-4">Lycée Saint Gabriel - Saint Laurent sur Sèvre</h3>
                     </div>
                     <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
                         <h1 className="font-bold text-xl mb-2">2021 - 2023</h1>
@@ -122,11 +124,9 @@ export default function CV() {
                         <h3 className="ml-4">Lycée Saint Gabriel - Saint Laurent sur Sèvre</h3>
                     </div>
                     <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
-                        <h1 className="font-bold text-xl mb-2">2018 - 2021</h1>
-                        <h2 className="text-lg ml-4">Bac STI2D (Siences et Technologies de l&apos;Industrie et du
-                            Développement
-                            Durable) (diplômé)</h2>
-                        <h3 className="ml-4">Lycée Saint Gabriel - Saint Laurent sur Sèvre</h3>
+                        <h1 className="font-bold text-xl mb-2">2023 - 2024</h1>
+                        <h2 className="text-lg ml-4">Bachelor spécialisation en développement (en cours)</h2>
+                        <h3 className="ml-4">Sup de Vinci - Nantes</h3>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@ export default function CV() {
                     <div className="p-4 border rounded-lg shadow-lg bg-slate-50">
                         <p className="font-bold text-lg text-center">Langages</p>
                         <ul className="text-center p-4 ">
-                            <li>
+                        <li>
                                 HTML
                             </li>
                             <li>
