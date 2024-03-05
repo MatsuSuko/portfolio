@@ -36,7 +36,6 @@ export default function RootLayout({
             </div>
         </div>
 
-
         {/*<body className="flex font-sans w-full h-screen">
       <div className="bg-white rounded shadow-md">
           {children}

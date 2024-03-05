@@ -11,17 +11,16 @@ export default function Contact() {
         <section className="flex container mx-auto bg-white dark:bg-gray-900 justify-center items-center">
             <div className="container px-6 py-12 mx-auto">
                 <div className="text-center mb-5">
-                    <p className="font-medium text-blue-500 text-2xl dark:text-blue-400">Contactez-moi</p>
+                    <p className="font-medium text-orange-500 text-2xl dark:text-orange-200">Contactez-moi</p>
 
                     <h1 className="mt-2 text-3xl font-semibold text-gray-800 md:text-3xl dark:text-white">Où me
                         trouver</h1>
 
-                    {/*<p className="mt-3 text-gray-500 dark:text-gray-400">Je suis toujours là pour discuter</p>*/}
                 </div>
                 <Separator/>
                 <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
                     <div className="flex flex-col items-center justify-center text-center">
-                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="p-3 text-orange-500 rounded-full bg-orange-100/80 dark:bg-gray-800">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                          stroke="currentColor" className="w-12 h-12">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -30,14 +29,13 @@ export default function Contact() {
                 </span>
 
                         <h2 className="mt-4 text-2xl font-medium text-gray-800 dark:text-white">Email</h2>
-                        {/*<p className="mt-2 text-gray-500 dark:text-gray-400">Je suis toujours là pour discuter</p>*/}
                         <Link href="#" onClick={handleMailtoClick}
-                              className="mt-2 text-xl text-blue-500 dark:text-blue-400">bounmy.souvanny@gmail.com</Link>
+                              className="mt-2 text-xl text-orange-500 hover:scale-110 transition duration-300 dark:text-blue-400">bounmy.souvanny@gmail.com</Link>
                     </div>
 
 
                     <div className="flex flex-col items-center justify-center text-center">
-                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="p-3 text-orange-500 rounded-full bg-orange-100/80 dark:bg-gray-800">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                          stroke="currentColor" className="w-12 h-12">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -46,13 +44,11 @@ export default function Contact() {
                 </span>
 
                         <h2 className="mt-4 text-2xl font-medium text-gray-800 dark:text-white">Téléphone</h2>
-                        {/*<p className="mt-2 text-gray-500 dark:text-gray-400">Du lundi au vendredi</p>*/}
-                        {/*<p className="mt-2 text-gray-500 dark:text-gray-400">Toujours disponible</p>*/}
-                        <p className="mt-2 text-xl text-blue-500 dark:text-blue-400">06 74 74 29 96</p>
+                        <p className="mt-2 text-xl text-orange-500 hover:scale-110 transition duration-300 dark:text-blue-400">06 74 74 29 96</p>
                     </div>
 
                     <div className="flex flex-col items-center justify-center text-center">
-                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="p-3 text-orange-500 rounded-full bg-orange-100/80 dark:bg-gray-800">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                          stroke="currentColor" className="w-12 h-12">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -63,9 +59,8 @@ export default function Contact() {
                 </span>
 
                         <h2 className="mt-4 text-2xl font-medium text-gray-800 dark:text-white">LinkedIn</h2>
-                        {/*<p className="mt-2 text-gray-500 dark:text-gray-400">Je suis aussi ici</p>*/}
                         <Link href="https://www.linkedin.com/in/souvanny-bounmy/"
-                              className="mt-2 text-lg text-blue-500 dark:text-blue-400">Souvanny Bounmy</Link>
+                              className="mt-2 text-lg text-orange-500 hover:scale-110 transition duration-300 dark:text-blue-400">Souvanny Bounmy</Link>
                     </div>
                 </div>
             </div>

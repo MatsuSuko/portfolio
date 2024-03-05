@@ -26,9 +26,13 @@ export default function About() {
                         </p>
                     </div>
                     <div className="flex justify-center items-center">
-                        <Image src={ImgPhotoProfil} alt="ProfileImage"
-                               className="rounded-full shadow-lg w-80 h-80 object-cover"/>
+                        <Image
+                            src={ImgPhotoProfil}
+                            alt="ProfileImage"
+                            className="rounded-full shadow-lg w-80 h-80 object-cover border-transparent hover:border-orange-200 border-4 transition duration-300"
+                        />
                     </div>
+
                 </div>
             </div>
         </div>

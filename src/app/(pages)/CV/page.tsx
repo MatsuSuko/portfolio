@@ -1,3 +1,5 @@
+import Link from "next/link";
+import {Button} from "@/components/ui/button";
 
 export default function CV() {
     return (
@@ -10,7 +12,7 @@ export default function CV() {
                 <div className="grid grid-rows-1 gap-7">
 
                     <div className="flex justify-start">
-                        <div className="w-3/5 bg-slate-50">
+                        <div className="w-3/5 bg-slate-50 hover:shadow-xl hover:translate-x-4 transition duration-300">
                             <div className="flex flex-col p-4 border rounded-lg shadow-xl">
                                 <h1 className="font-bold text-xl">Novembre 2023 - Aujourd’hui</h1>
                                 <h2 className="text-lg ml-2">SARL PARAMY (restaurant) - Pouzauges</h2>
@@ -33,7 +35,8 @@ export default function CV() {
                                         Emploi de GitHub pour gérer les versions du projet
                                     </li>
                                     <li>
-                                        Utilisation de Figma pour concevoir l&apos;interface utilisateur de l&apos;application
+                                        Utilisation de Figma pour concevoir l&apos;interface utilisateur de
+                                        l&apos;application
                                     </li>
                                 </ul>
                             </div>
@@ -41,9 +44,9 @@ export default function CV() {
                     </div>
 
                     <div className="flex justify-end">
-                        <div className="w-3/5 bg-slate-50">
+                        <div className="w-3/5 bg-slate-50 hover:shadow-xl hover:-translate-x-4 transition duration-300">
                             <div className="flex flex-col p-4 border rounded-lg shadow-xl">
-                                <h1 className="font-bold text-xl">Avril 2022 - Mai 2022</h1>
+                            <h1 className="font-bold text-xl">Avril 2022 - Mai 2022</h1>
                                 <h2 className="text-lg ml-2">K-Technologies (informatique) - La Meilleraie-Tillay,
                                     Pouzauges</h2>
                                 <h1 className="text-lg">Stage en tant que développeur web (fullstack)</h1>
@@ -72,10 +75,10 @@ export default function CV() {
                     </div>
 
                     <div className="flex justify-start">
-                        <div
-                            className="w-3/5 bg-slate-50">
+                        <div className="w-3/5 bg-slate-50 hover:shadow-xl hover:translate-x-4 transition duration-300">
                             <div className="flex flex-col p-4 border rounded-lg shadow-xl">
-                                <h1 className="font-bold text-xl">Été 2018 - 2020, juillet 2022 - en CDD jusqu&apos;au 31
+                            <h1 className="font-bold text-xl">Été 2018 - 2020, juillet 2022 - en CDD jusqu&apos;au
+                                    31
                                     août 2023</h1>
                                 <h2 className="text-lg ml-2">SARL PARAMY (restaurant) - Pouzauges</h2>
                                 <h1 className="text-lg">Serveur</h1>
@@ -110,20 +113,20 @@ export default function CV() {
             </h1>
             <div className="container mx-auto p-14">
                 <div className="grid grid-cols-3 gap-7">
-                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
+                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <h1 className="font-bold text-xl mb-2">2018 - 2021</h1>
                         <h2 className="text-lg ml-4">Bac STI2D (Siences et Technologies de l&apos;Industrie et du
                             Développement
                             Durable) (diplômé)</h2>
                         <h3 className="ml-4">Lycée Saint Gabriel - Saint Laurent sur Sèvre</h3>
                     </div>
-                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
+                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <h1 className="font-bold text-xl mb-2">2021 - 2023</h1>
                         <h2 className="text-lg ml-4">BTS SN Option IR (Systèmes Numériques option Informatique et
                             Réseaux) (diplômé)</h2>
                         <h3 className="ml-4">Lycée Saint Gabriel - Saint Laurent sur Sèvre</h3>
                     </div>
-                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50">
+                    <div className="border rounded-lg shadow-xl p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <h1 className="font-bold text-xl mb-2">2023 - 2024</h1>
                         <h2 className="text-lg ml-4">Bachelor spécialisation en développement (en cours)</h2>
                         <h3 className="ml-4">Sup de Vinci - Nantes</h3>
@@ -137,10 +140,10 @@ export default function CV() {
             </h1>
             <div className="container mx-auto p-14">
                 <div className="grid grid-cols-4 gap-7">
-                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50">
+                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50 hover:shadow-2xl hover:-rotate-6 transition duration-300">
                         <p className="font-bold text-lg text-center">Langages</p>
                         <ul className="text-center p-4 ">
-                        <li>
+                            <li>
                                 HTML
                             </li>
                             <li>
@@ -166,7 +169,7 @@ export default function CV() {
                             </li>
                         </ul>
                     </div>
-                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50">
+                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50 hover:shadow-2xl hover:-rotate-6 transition duration-300">
                         <p className="font-bold text-lg text-center">Frameworks et CMS</p>
                         <ul className="text-center p-4 ">
                             <li>
@@ -186,7 +189,7 @@ export default function CV() {
                             </li>
                         </ul>
                     </div>
-                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50">
+                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50 hover:shadow-2xl hover:-rotate-6 transition duration-300">
                         <p className="font-bold text-lg text-center">Base de données</p>
                         <ul className="text-center p-4 ">
                             <li>
@@ -197,7 +200,7 @@ export default function CV() {
                             </li>
                         </ul>
                     </div>
-                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50">
+                    <div className="p-4 border rounded-lg shadow-lg bg-slate-50 hover:shadow-2xl hover:-rotate-6 transition duration-300">
                         <p className="font-bold text-lg text-center">Plateformes et outils</p>
                         <ul className="text-center p-4 ">
                             <li>
@@ -239,7 +242,7 @@ export default function CV() {
             <div className="container mx-auto p-14">
                 <div className="grid grid-cols-3 gap-7">
                     <div
-                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50">
+                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <p className="font-bold">Sport, Jeux vidéo</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -260,7 +263,7 @@ export default function CV() {
                         </ul>
                     </div>
                     <div
-                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50">
+                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <p className="font-bold text-center">Dessin, Cuisine, Musique, Cinéma, Bricolage, Voyage</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -284,7 +287,7 @@ export default function CV() {
                         </ul>
                     </div>
                     <div
-                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50">
+                        className="flex flex-col border shadow-xl w-auto h-auto rounded-lg justify-center items-center p-4 bg-slate-50 hover:shadow-2xl hover:scale-105 transition duration-300">
                         <p className="font-bold text-center">Informatique, Haute technologie, Automobile</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -309,6 +312,14 @@ export default function CV() {
                     </div>
                 </div>
             </div>
+
+            <div className="container mx-auto p-14">
+                <h1 className="font-bold text-center">Si vous souhaitez télécharger mon CV au format PDF, le voici</h1>
+                <Link href="/CV (Souvanny Bounmy).pdf" className="flex justify-center p-4" download>
+                    <Button variant={"outline"}>Télécharger</Button>
+                </Link>
+            </div>
+
         </div>
     );
 }
