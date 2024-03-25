@@ -31,7 +31,7 @@ export default function Projets() {
                 Mes projets
             </h1>
             <div className="flex justify-center p-14">
-                <div className="grid grid-cols-2 gap-7 w-4/5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-7 w-4/5">
                     <Sheet>
                         <SheetTrigger>
                             <Card className="border shadow-xl hover:scale-105 transition duration-150 ease-in bg-slate-50">

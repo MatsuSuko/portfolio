@@ -25,7 +25,7 @@ export default function RootLayout({
         <body className={quicksand.className}>
 
         <div className="flex flex-col min-h-screen">
-            <div className="sticky w-full">
+            <div className="sticky w-full z-50">
                 <Navbar/>
             </div>
             <main className="flex flex-grow">

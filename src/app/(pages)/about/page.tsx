@@ -8,9 +8,16 @@ export default function About() {
                 À propos de moi
             </h1>
 
-            <div className="flex container mx-auto p-4 justify-center items-center h-full">
-                <div className="grid grid-cols-2 gap-2">
-                    <div className="p-4 border rounded-lg shadow-xl bg-slate-50">
+            <div className="flex flex-col-reverse md:flex-row container mx-auto p-4 justify-center items-center h-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    <div className="flex justify-center items-center md:order-2">
+                        <Image
+                            src={ImgPhotoProfil}
+                            alt="ProfileImage"
+                            className="rounded-full shadow-lg w-80 h-80 object-cover border-transparent hover:border-orange-200 border-4 transition duration-300"
+                        />
+                    </div>
+                    <div className="p-4 border rounded-lg shadow-xl bg-slate-50 md:order-1">
                         <h1 className="text-xl font-medium mb-8 text-center">
                             Hey ! Je suis Souvanny BOUNMY et je suis un développeur web (fullstack)
                         </h1>
@@ -24,13 +31,6 @@ export default function About() {
                             progression me permettra d&apos;approfondir mes compétences et de me préparer efficacement pour
                             une carrière dans le développement informatique.
                         </p>
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image
-                            src={ImgPhotoProfil}
-                            alt="ProfileImage"
-                            className="rounded-full shadow-lg w-80 h-80 object-cover border-transparent hover:border-orange-200 border-4 transition duration-300"
-                        />
                     </div>
 
                 </div>
